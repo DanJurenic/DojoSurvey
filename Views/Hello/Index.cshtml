@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+
+<body id="IndexBody">
+    <form action="process" method="post" id="ProcessForm">
+        <label for="NameField">Your Name:</label>
+        <input type="text" name="NameField"/>
+        <label for="DojoLocation">Dojo Location:</label>
+        <select id="DojoLocation" name="DojoLocation">
+            <option value="online">Online</option>
+            <option value="Bellevue">Bellevue</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Silicon Valley">Silicon Valley</option>
+        </select>
+        <label for="FavoriteLanguage">Favorite Language:</label>
+        <select id="FavoriteLanguage" name="FavoriteLanguage">
+            <option value="c#">C#</option>
+            <option value="Javascript">Javascript</option>
+            <option value="HTML">HTML</option>
+            <option value="Python">Python</option>
+        </select>
+        <label for="Comment Field">Comment (Optional):</label>
+        <input type="text" name="CommentField"/>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+
+</html>
